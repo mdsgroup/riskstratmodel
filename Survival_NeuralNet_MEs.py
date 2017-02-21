@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-After preprocess_ver2_nsfilter.R
-Copyright Choi H
+After R sourcecode for gene expression data of module genes
+Copyright Choi H and Na KJ
 
 """
 
