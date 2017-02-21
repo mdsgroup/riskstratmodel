@@ -7,5 +7,6 @@
 (Under construction...)
 
 ### Requirments: 
-Python - Keras (backend: Theano), Lifelines
-R - WGCNA package
+>Python - Keras (backend: Theano), Lifelines
+
+>R - WGCNA package
