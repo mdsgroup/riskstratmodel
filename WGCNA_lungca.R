@@ -2,8 +2,6 @@
 #Preprocessing#
 ##############
 
-#setwd("./Documents/R_temp/WGCNA_lungca_codes")
-
 # Dataset: Using RMA normalized array data of lung adenocarcinoma 
 
 load("./Rdata/final_normdata.Rdata")
