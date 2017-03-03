@@ -57,8 +57,8 @@ rownames(GSE27716.exp.adc) = unlist(mget(rownames(GSE27716.exp.adc), env = hgu13
 rownames(GSE12667.exp.adc) = unlist(mget(rownames(GSE12667.exp.adc), env = hgu133plus2SYMBOL))
 
 f1 <- pOverA(0.25, log2(100)) 
-f2 <- function(x) {IQR(x) > 0.5}
-ff <- filterfun(f1)#, f2
+#f2 <- function(x) {IQR(x) > 0.5}
+ff <- filterfun(f1)
 
 # apply filterfunction to each expression matrix
 GSE50081.exp.adc <- GSE50081.exp.adc[genefilter(GSE50081.exp.adc, ff),]
